@@ -5,7 +5,7 @@
 %define vendor motorola
 
 %define vendor_pretty Motorola
-%define device_pretty Moto G (3nd Gen.)
+%define device_pretty Moto G (3rd Gen.)
 
 %define installable_zip 1
 
