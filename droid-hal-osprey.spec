@@ -13,6 +13,7 @@
 
 %define straggler_files \
 /init.mmi.touch.sh\
+/init.mmi.boot.sh\
 %{nil}
 
 %include rpm/dhd/droid-hal-device.inc
