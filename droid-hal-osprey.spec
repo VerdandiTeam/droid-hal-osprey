@@ -14,7 +14,12 @@
 %define straggler_files \
 /init.mmi.touch.sh\
 /init.mmi.boot.sh\
+/init.mmi.early_boot.sh\
+/selinux_version\
+/service_contexts\
 %{nil}
+
+%define makefstab_skip_entries /sys/fs/cgroup/bfqio /sys/fs/pstore none /firmware /dev/cpuctl /dev/cpuset /dev/mtp
 
 %include rpm/dhd/droid-hal-device.inc
 
